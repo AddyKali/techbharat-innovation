@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { UserCheck, BookOpenCheck, Code2, Rocket, Handshake } from 'lucide-react';
+import { UserCheck, BookOpenCheck, Code2, Rocket, Briefcase } from 'lucide-react';
 
 const STEPS = [
   {
@@ -26,7 +26,7 @@ const STEPS = [
     color: 'emerald',
   },
   {
-    icon: Handshake,
+    icon: Briefcase,
     step: '04',
     title: 'Mock Interviews & Prep',
     description: 'Intense interview preparation with our placement experts. Resume reviews, DSA practice, and mock calls.',
